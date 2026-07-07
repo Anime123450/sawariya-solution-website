@@ -1,69 +1,186 @@
-# Sawariya Solution — Website
+<h1 align="center">Sawariya Solution — Company Website</h1>
 
-A modern, fully responsive multi-page website for **Sawariya Solution**, a global
-IT services company offering web, mobile, eCommerce, AI/ML, blockchain and cloud
-development.
+<p align="center">
+  A modern, fully responsive, multi-page website for <strong>Sawariya Solution</strong>,
+  a global IT services company offering web, mobile, eCommerce, AI/ML, blockchain and cloud development.
+</p>
 
-Built with plain **HTML5, CSS3 and vanilla JavaScript** — no frameworks, no build
-step, no dependencies. It runs anywhere you can serve static files.
+<p align="center">
+  <a href="https://anime123450.github.io/sawariya-solution-website/">
+    <img src="https://img.shields.io/badge/Live_Demo-Visit_Site-2f6bff?style=for-the-badge&logo=github" alt="Live Demo" />
+  </a>
+</p>
 
-## Live site
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/GitHub_Pages-deployed-222?style=flat&logo=githubpages&logoColor=white" alt="GitHub Pages" />
+  <img src="https://img.shields.io/badge/Responsive-100%25-2f6bff?style=flat" alt="Responsive" />
+</p>
 
-Hosted with GitHub Pages. Open `index.html` locally, or run a quick server:
+> **🔗 Live site:** https://anime123450.github.io/sawariya-solution-website/
+
+---
+
+## 📸 Preview
+
+![Sawariya Solution — Homepage](screenshots/home.jpg)
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/about.jpg" alt="About page" /><br/><sub><b>About</b></sub></td>
+    <td width="50%"><img src="screenshots/services.jpg" alt="Services page" /><br/><sub><b>Services</b></sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="screenshots/contact.jpg" alt="Contact page" /><br/><sub><b>Contact</b></sub></td>
+    <td width="50%" align="center"><img src="screenshots/mobile.jpg" alt="Mobile view" width="240" /><br/><sub><b>Mobile view</b></sub></td>
+  </tr>
+</table>
+
+---
+
+## 📖 Overview
+
+This is a complete marketing website built for Sawariya Solution. The goal was a
+**premium, production-ready** site that looks modern, loads fast and works perfectly
+on every screen size — from large desktops down to small phones.
+
+It is built entirely with **HTML5, CSS3 and vanilla JavaScript** — no frameworks,
+no libraries and no build step. Everything (fonts, images, icons) is self-hosted,
+so the site is fast and works even without a CDN.
+
+---
+
+## ✨ Features
+
+**Design & UI**
+- Modern dark theme with a consistent design system and brand colours
+- Custom typography using the Inter & Sora typefaces (self-hosted)
+- Hand-crafted inline SVG icons — no icon library
+- Smooth hover effects, micro-interactions and scroll-reveal animations
+
+**Layout & Components**
+- Sticky header with hover **mega-menus** (turns into an accordion drawer on mobile)
+- Animated statistic counters and floating info cards
+- Auto-playing, **swipeable** testimonials slider
+- Two infinite marquees (technologies + services)
+- Alternating feature sections, FAQ accordion and an interactive location map
+
+**Functionality**
+- Working enquiry form with live validation and a success message
+- Fully responsive across desktop, laptop, tablet and mobile — **no horizontal scroll**
+- Back-to-top button, smooth scrolling and active navigation states
+
+**Quality**
+- SEO meta tags + Open Graph tags on every page
+- Accessible markup with `aria` labels and keyboard-friendly navigation
+- `prefers-reduced-motion` support for users who prefer less animation
+- Clean, commented and maintainable code
+
+---
+
+## 🗂️ Pages
+
+| Page | File | What's inside |
+|------|------|---------------|
+| **Home** | `index.html` | Hero, about, services, industries, testimonials, process, tech stack, contact |
+| **About** | `about.html` | Company story, key stats, mission & values, why choose us |
+| **Services** | `services.html` | Full service list, detailed sections, work process, FAQ |
+| **Contact** | `contact.html` | Contact details, enquiry form and a location map |
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** — semantic, accessible markup
+- **CSS3** — Grid, Flexbox, custom properties, `clamp()` fluid sizing, media queries
+- **JavaScript (ES6+)** — vanilla, no dependencies
+- **Fonts** — Inter & Sora (self-hosted `.woff2`)
+- **Icons** — inline SVG
+- **Hosting** — GitHub Pages
+
+---
+
+## 📁 Project Structure
+
+```
+sawariya-solution-website/
+├── index.html              # Home
+├── about.html              # About Us
+├── services.html           # Services
+├── contact.html            # Contact
+├── css/
+│   └── style.css           # Full design system + responsive rules
+├── js/
+│   └── main.js             # Nav, counters, slider, reveal, form
+├── assets/
+│   ├── sawariya-logo.jpg
+│   ├── fonts/              # Inter + Sora (self-hosted)
+│   └── images/             # Photos + avatars
+├── screenshots/            # README preview images
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and open it — no installation required:
 
 ```bash
+git clone https://github.com/Anime123450/sawariya-solution-website.git
+cd sawariya-solution-website
+```
+
+Then just open `index.html` in your browser. For the best experience (clean URLs,
+no browser file restrictions), run a small local server:
+
+```bash
+# Python 3
 python -m http.server 8080
 # then visit http://localhost:8080
 ```
 
-## Pages
+---
 
-| Page | File | Contents |
-|------|------|----------|
-| Home | `index.html` | Hero, about, services, industries, testimonials, process, tech stack, contact |
-| About | `about.html` | Company story, stats, mission & values, why choose us |
-| Services | `services.html` | Full service list, detailed sections, process, FAQ |
-| Contact | `contact.html` | Contact details, enquiry form, location map |
+## 🌐 Deployment
 
-## Structure
+The site is deployed with **GitHub Pages** from the `main` branch. Any push to
+`main` automatically rebuilds and updates the live site within a minute or two.
 
-```
-sawariya-solution-website/
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
-├── css/style.css
-├── js/main.js
-└── assets/
-    ├── sawariya-logo.jpg
-    ├── fonts/          # Inter + Sora (self-hosted)
-    └── images/         # photos + avatars
-```
+To deploy your own copy: push the code to a GitHub repository, then go to
+**Settings → Pages**, choose the `main` branch and `/ (root)` folder, and save.
 
-## Features
+---
 
-- Dark, premium UI with a consistent design system and brand colours
-- Sticky header with hover mega-menus (accordion drawer on mobile)
-- Animated counters, scroll-reveal animations, floating cards
-- Auto-playing, swipeable testimonials slider
-- Working enquiry form with validation and success feedback
-- Fully responsive across desktop, laptop, tablet and mobile (no horizontal scroll)
-- SEO meta + Open Graph tags, `prefers-reduced-motion` support
-- Self-hosted fonts and local images — fast and works offline
+## 🎨 Customising
 
-## Customising
-
-- **Text:** edit the HTML files directly.
-- **Contact details / social links:** they appear in the top bar, contact section
-  and footer of each page.
-- **Colours:** change the CSS variables at the top of `css/style.css`
+- **Text / content** — edit the `.html` files directly.
+- **Colours** — change the CSS variables at the top of `css/style.css`
   (`--brand`, `--brand-2`, `--brand-3`, backgrounds).
-- **Photos:** replace files in `assets/images/` (names describe where each is used).
-- **Connect the form to a backend:** replace the mock handler in `js/main.js`
-  (`#contactForm`) with a `fetch()` POST to your endpoint.
+- **Contact details & social links** — they appear in the top bar, contact section
+  and footer of each page.
+- **Photos** — replace the files in `assets/images/` (each is clearly named).
+- **Connect the form to a backend** — replace the mock handler in `js/main.js`
+  (`#contactForm`) with a real `fetch()` request to your endpoint.
 
-## Tech
+---
 
-HTML5 · CSS3 (Grid, Flexbox, custom properties) · Vanilla JavaScript ·
-Inter & Sora fonts · inline SVG icons.
+## 📌 Roadmap
+
+- [ ] Portfolio / Case Studies page
+- [ ] Blog section
+- [ ] Connect the enquiry form to a live inbox / CRM
+- [ ] Custom domain
+
+---
+
+## 👤 Author
+
+**Animesh Sharma**
+GitHub: [@Anime123450](https://github.com/Anime123450)
+
+---
+
+<p align="center"><sub>© 2026 Sawariya Solution. All rights reserved.</sub></p>
