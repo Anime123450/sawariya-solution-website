@@ -6,12 +6,13 @@
   <title>Services | Sawariya Solution</title>
   <meta name="description" content="Explore Sawariya Solution's services — web development, mobile apps, eCommerce, AI/ML, blockchain, cloud and digital marketing for businesses worldwide." />
   <meta name="author" content="Sawariya Solution" />
-  <meta name="theme-color" content="#0a0e19" />
+  <meta name="theme-color" content="#ffffff" />
   <link rel="icon" type="image/jpeg" href="assets/sawariya-logo.jpg" />
-  <link rel="preload" href="assets/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="assets/fonts/sora-700.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/manrope-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="assets/fonts/jost-700.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="assets/fonts/fonts.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}</script>
 </head>
 <body>
 
@@ -79,6 +80,10 @@
       </ul>
     </nav>
     <div class="header__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.4 1.4M17.6 17.6 19 19M19 5l-1.4 1.4M6.4 17.6 5 19"/></svg>
+      </button>
       <a href="contact.html" class="btn btn--primary btn--sm">Get a Quote</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>

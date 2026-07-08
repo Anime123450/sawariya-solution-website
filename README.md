@@ -55,8 +55,9 @@ so the site is fast and works even without a CDN.
 ## ✨ Features
 
 **Design & UI**
-- Modern dark theme with a consistent design system and brand colours
-- Custom typography using the Inter & Sora typefaces (self-hosted)
+- Clean light theme (default) with a one-click **dark mode** toggle that remembers your choice
+- Consistent design system built around the brand's signature orange accent
+- Custom typography using the Jost & Manrope typefaces (self-hosted)
 - Hand-crafted inline SVG icons — no icon library
 - Smooth hover effects, micro-interactions and scroll-reveal animations
 
@@ -96,7 +97,7 @@ so the site is fast and works even without a CDN.
 - **HTML5** — semantic, accessible markup
 - **CSS3** — Grid, Flexbox, custom properties, `clamp()` fluid sizing, media queries
 - **JavaScript (ES6+)** — vanilla, no dependencies
-- **Fonts** — Inter & Sora (self-hosted `.woff2`)
+- **Fonts** — Jost & Manrope (self-hosted `.woff2`)
 - **Icons** — inline SVG
 - **Hosting** — GitHub Pages
 

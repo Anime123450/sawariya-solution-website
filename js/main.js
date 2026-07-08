@@ -11,6 +11,21 @@
   const yearEl = $('#year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
+  /* ---- Theme toggle (white default, dark optional) ---- */
+  const themeBtn = $('#themeToggle');
+  if (themeBtn) {
+    themeBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        try { localStorage.setItem('theme', 'light'); } catch (e) {}
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+      }
+    });
+  }
+
   /* ---- Sticky header shadow ---- */
   const header = $('#header');
   const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
