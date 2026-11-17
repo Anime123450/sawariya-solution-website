@@ -1,8 +1,9 @@
 <h1 align="center">Sawariya Solution — Company Website</h1>
 
 <p align="center">
-  A modern, fully responsive, multi-page website for <strong>Sawariya Solution</strong>,
-  a global IT services company offering web, mobile, eCommerce, AI/ML, blockchain and cloud development.
+  A responsive, multi-page website for <strong>Sawariya Solution</strong>,
+  an IT services company offering web, mobile, eCommerce, AI/ML, blockchain and cloud development.
+  <br/>A student project from my internship at Sawariya Solution (2026).
 </p>
 
 <p align="center">
@@ -16,7 +17,6 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/GitHub_Pages-deployed-222?style=flat&logo=githubpages&logoColor=white" alt="GitHub Pages" />
-  <img src="https://img.shields.io/badge/Responsive-100%25-2f6bff?style=flat" alt="Responsive" />
 </p>
 
 > **🔗 Live site:** https://anime123450.github.io/sawariya-solution-website/
@@ -42,13 +42,12 @@
 
 ## 📖 Overview
 
-This is a complete marketing website built for Sawariya Solution. The goal was a
-**premium, production-ready** site that looks modern, loads fast and works perfectly
-on every screen size — from large desktops down to small phones.
+This is a multi-page marketing website for Sawariya Solution. It is meant to be
+responsive and to work on screen sizes from large desktops down to small phones.
 
 It is built entirely with **HTML5, CSS3 and vanilla JavaScript** — no frameworks,
 no libraries and no build step. Everything (fonts, images, icons) is self-hosted,
-so the site is fast and works even without a CDN.
+so the site does not depend on a CDN.
 
 ---
 
@@ -58,7 +57,7 @@ so the site is fast and works even without a CDN.
 - Clean light theme (default) with a one-click **dark mode** toggle that remembers your choice
 - Consistent design system built around the brand's signature orange accent
 - Custom typography using the Jost & Manrope typefaces (self-hosted)
-- Hand-crafted inline SVG icons — no icon library
+- Inline SVG icons — no icon library
 - Smooth hover effects, micro-interactions and scroll-reveal animations
 
 **Layout & Components**
@@ -70,14 +69,14 @@ so the site is fast and works even without a CDN.
 
 **Functionality**
 - Working enquiry form with live validation and a success message
-- Fully responsive across desktop, laptop, tablet and mobile — **no horizontal scroll**
+- Responsive across desktop, laptop, tablet and mobile
 - Back-to-top button, smooth scrolling and active navigation states
 
 **Quality**
 - SEO meta tags + Open Graph tags on every page
-- Accessible markup with `aria` labels and keyboard-friendly navigation
+- Markup with `aria` labels and keyboard-friendly navigation
 - `prefers-reduced-motion` support for users who prefer less animation
-- Clean, commented and maintainable code
+- Commented code
 
 ---
 
@@ -94,7 +93,7 @@ so the site is fast and works even without a CDN.
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — semantic, accessible markup
+- **HTML5** — semantic markup
 - **CSS3** — Grid, Flexbox, custom properties, `clamp()` fluid sizing, media queries
 - **JavaScript (ES6+)** — vanilla, no dependencies
 - **Fonts** — Jost & Manrope (self-hosted `.woff2`)
